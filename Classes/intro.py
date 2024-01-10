@@ -1,4 +1,8 @@
 class Robot:
+  def __init__(givenName, givenColor, givenWeight):
+    self.name = givenName
+    self.color = givenColor
+    self.weight = givenWeight
   def introduce_self(self):
     print('My name is ' + self.name)
 
@@ -13,3 +17,4 @@ r2.color = "White"
 r2.weight = 4.5
 
 r1.introduce_self() #  prints my name is Eva
+r2.introduce_self() # prints my name is Chui
