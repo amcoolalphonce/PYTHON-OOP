@@ -13,7 +13,7 @@ class Robot:
 #r1.weight = 3
 r1 = Robot("Eva", "Brown", 3)
 r2 = Robot("Chui", "White", 4.5)
-
+#RESTART KERNEL AND CLEAR ALL OUTPUT VARIABLES
 #r2 = Robot()
 #r2.name = "Chui"
 #r2.color = "White"
