@@ -2,6 +2,9 @@ class Car:
   def __init__(self, speed, color):
     self.speed = speed
     self.color = color
+  #to prevenr modificatio when acccess is granted to other people
+  def set_Speed(self, value):
+    self.speed = value
 
 
 
