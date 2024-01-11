@@ -5,6 +5,8 @@ class Car:
   #to prevenr modificatio when acccess is granted to other people
   def set_Speed(self, value):
     self.speed = value
+  def set_Speed(self):
+    return self.speed
 
 
 
