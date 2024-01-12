@@ -10,3 +10,5 @@ class Circle:
 
 #usage
 circle_1 = Circle(42)
+print(circle_1.radius)# 42
+print(circle_1.calculate_area()) #5541.77
