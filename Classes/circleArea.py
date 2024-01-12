@@ -14,7 +14,7 @@ class Rectangle:
     self.length = length
 
   def rectangle_area(self):
-    return (length * width)
+    return (self.length * self.width)
     
 #usage
 circle_1 = Circle(42)
