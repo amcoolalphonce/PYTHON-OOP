@@ -18,6 +18,7 @@ class Rectangle:
     
 #usage
 circle_1 = Circle(42)
+rectangle1 = Rectangle(40, 20)
 print(circle_1.radius)# 42
 print(circle_1.calculate_area()) #5541.77
 
