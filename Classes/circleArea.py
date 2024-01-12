@@ -6,3 +6,7 @@ class Circle:
 
   def calculate_area(self):
     return round(math.pi * self.radius **2, 2)
+
+
+#usage
+circle_1 = Circle(42)
