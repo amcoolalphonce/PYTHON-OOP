@@ -1,4 +1,5 @@
 class Person:
+  pass # for an empty class to avoid errors
   def __init__(self, name, age):
     self.name = name
     self.age = age
