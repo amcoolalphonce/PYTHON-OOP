@@ -16,3 +16,4 @@ class Student(Person):
   pass
 
 y = Student("John", 19)
+y.greet()
