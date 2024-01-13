@@ -14,7 +14,7 @@ del person1.age # deletes the age of person1
 
 class Student(Person): #child class
   def __init__(self,first_name, age): #overrides the parent's __init__()
-  pass
+  super().__init__(first_name, age) #super() function that will make the child class inherit all the methods and properties from its parent:
 
 y = Student("John", 19)
 y.greet()
