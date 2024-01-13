@@ -14,3 +14,5 @@ del person1.age # deletes the age of person1
 
 class Student(Person):
   pass
+
+y = Student("John", 19)
