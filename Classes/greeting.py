@@ -8,3 +8,5 @@ class Person:
 
 person1 = Person()
 person1.greet()
+
+del person1.age # deletes the age of person1
